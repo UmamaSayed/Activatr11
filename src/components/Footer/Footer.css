@@ -1,0 +1,49 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 30px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 100px; /* Adjust size as needed */
+  }
+  
+  .contact-info p {
+    margin: 0px 0;
+    line-height: 20px;
+  }
+  
+  .slogan {
+    font-style: italic;
+    font-size: 12px;;
+    margin-bottom: 30px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+  }
+  
+  .copyright p {
+    margin: 5px 0;
+  }
+  
+@media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-logo img {
+      margin-bottom: 20px;
+    }
+  }
